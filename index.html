@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>www.Ideal.com</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="index.css" />
+
+
+</head>
+
+<body>
+  <div class="contanier">
+    <nav>
+      <section>
+        <img src="Ideal.png" />
+      </section>
+      <div class="marquee">
+        <marquee direction="scroll">
+          BUY ANY 2 PRODUCT AND GET 1 FREE
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DISCOUNT
+          CODE = BUY 2
+        </marquee>
+      </div>
+
+      <ul>
+        <li class="active"><a href="#">home</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Log in</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      
+      <div class="div-img">
+        <img id="big-img" src="jacket1.png" alt="" />
+      </div>
+      <div class="text">
+        <h1>ALL YOUR <BR>&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STYLES ARE HERE . . .</h1>
+      </div>
+      <!-- Search     -->
+      <div class="box">
+
+        <i class="fa fa-search" aria-hidden="true"></i>
+
+        <input type="text" name="">
+
+      </div>
+
+      <div class="small-img">
+        <img onclick="myTshirt(this.src)" src="jacket1.png" alt="" />
+        <img onclick="myTshirt(this.src)" src="jacket2.png" alt="" />
+        <img onclick="myTshirt(this.src)" src="jacket3.png" alt="" />
+      </div>
+      <!--rating-->
+      <div class="rating1">
+        <img src="rating1.png">
+
+      </div>
+      <div class="rating2">
+        <img src="rating2.png">
+      </div>
+      <div class="rating3">
+        <img src="rating3.png">
+      </div>
+      <!---->
+     <div class="rs1">
+      <h3>&#8377;2499</h3>
+     </div>
+     <div class="rs2">
+      <h3>&#8377;2999</h3>
+     </div>
+
+     <div class="rs3">
+      <h3>&#8377;1999</h3>
+     </div>
+     
+     <!--buynow-->
+     <div class="button">
+     <button class="button1">BUY NOW</button>
+    </div>
+
+    <div class="button">
+      <button class="button2">BUY NOW</button>
+     </div>
+
+     <div class="button">
+      <button class="button3">BUY NOW</button>
+     </div>
+
+    </div>
+
+
+    <script>
+      let bigImage = document.getElementById("big-img");
+
+      function myTshirt(shirt) {
+        bigImage.src = shirt;
+      }
+    </script>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">jacket</a></li>
+              <li><a href="#">jens</a></li>
+              <li><a href="#">shirt</a></li>
+              <li><a href="#">t-shirt</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
